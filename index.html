@@ -16,11 +16,13 @@
     </head>
     <body>
         <header class="d-flex justify-content-between align-items-stretch">
-            <h1 class="m-0 ps-3 py-1 flex-grow-1 flex-shrink-1">Tomtar</h1>
+            <h1 class="m-0 ps-3 py-1 flex-grow-1 flex-shrink-1">
+                <a class="text-reset text-decoration-none" href="#">Tomtar</a>
+            </h1>
             <nav class="nav nav-fill justify-content-end flex-grow-1">
-                <a class="nav-link" href="#">Demo Video</a>
+                <a class="nav-link" href="#demo-video">Demo Video</a>
+                <a class="nav-link" href="#about-us">About Us</a>
                 <a class="nav-link" href="#">Business Plan</a>
-                <a class="nav-link" href="#">About Us</a>
             </nav>
         </header>
 
@@ -30,6 +32,7 @@
             </div>
 
             <div class="container my-5">
+                <h2 class="text-center">Overview</h2>
                 <i>Tomtar: A Long Way Home</i> is a cooperative puzzle platformer designed to play with siblings and friends.
                 The game tells the story of siblings Britt and Nils as they are accidentally taken and dropped off in a new house.
                 The tomtar must work together and use their special powers to learn about their whereabouts, evade detection by the humans,
@@ -39,23 +42,52 @@
             <div class="container my-5 d-flex justify-content-evenly gap-5">
                 <div>
                     <i class="bi bi-people d-block text-center" style="font-size: 7rem;"></i>
+                    <h4>Co-Op</h4>
                     Designed for and around cooperative play. An ideal experience for siblings and friends.
                 </div>
 
                 <div>
                     <i class="bi bi-puzzle d-block text-center" style="font-size: 7rem;"></i>
+                    <h4>Puzzles</h4>
                     Put your brain to the test and use your special abilities to complete puzzles and find your way back home.
                 </div>
                 
                 <div>
                     <i class="bi bi-controller d-block text-center" style="font-size: 7rem;"></i>
+                    <h4>Action</h4>
                     Race your way through action sequences as you evade detection by the humans.
+                </div>
+            </div>
+
+            <div id="demo-video" class="container my-5">
+                <h2 class="text-center">Demo Video</h2>
+                <!-- TODO: Insert youtube demo video -->
+                <div style="min-height: 500px; background-color: var(--neutral-100);"></div>
+            </div>
+
+            <div id="about-us" class="container my-5">
+                <h2 class="text-center mb-4">Meet the Team</h2>
+                <div>
+                    <div class="about-us-item d-flex mb-3 p-3">
+                        <div class="text-center">
+                            <img class="circle mx-auto" src="" width="50">
+                            <div class="fs-3" style="min-width: max-content">John Doe</div>
+                            <div>
+                                <a href="mailto:email@example.com"><i class="bi bi-envelope"></i></a>
+                                <a href="https://github.com/"><i class="bi bi-github"></i></a>
+                                <a href="https://linkedin.com/in/"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="container m-3">
+                            Some description of activities here
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
 
-        <footer class="p-3">
-            <p>Test</p>
+        <footer class="p-3 mt-3">
+            <p>Created in May 2022 for the KTH course DH2650: Computer Game Design</p>
         </footer>
 
         <!-- Bootstrap JS -->

@@ -41,6 +41,6 @@ header {
 }
 
 footer {
-    color: var(--neutral-100);
+    color: var(--bs-gray-500);
     background-color: var(--neutral-900);
 }

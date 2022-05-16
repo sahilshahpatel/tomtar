@@ -8,3 +8,22 @@
 i.bi {
     color: var(--bs-gray-600);
 }
+
+.circle {
+    border-radius: 50%;
+}
+
+.about-us-item {
+    background-color: var(--neutral-100);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.about-us-item img {
+    display: block;
+
+    /* TODO: remove -- this is only for debugging */
+    background-color: var(--bs-teal);
+    border: 1px solid transparent;
+    min-width: 11ch;
+    min-height: 11ch;
+}
