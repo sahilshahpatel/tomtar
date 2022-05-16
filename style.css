@@ -1,0 +1,10 @@
+#tomtar-img {
+    /* TODO: Set to actual image instead of this fake stuff */
+    min-height: 400px;
+    background-color: var(--accent);
+    color: var(--neutral-100);
+}
+
+i.bi {
+    color: var(--bs-gray-600);
+}
