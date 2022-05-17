@@ -1,5 +1,6 @@
 :root {
     /* Color palette */
+    /* TODO: I'm thinking neutral could be a soft beige/sand color and accent could be a sof, light red like the hats */
     --neutral-100: var(--bs-gray-100);
     --neutral-500: var(--bs-gray-500);
     --neutral-900: var(--bs-gray-900);
