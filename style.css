@@ -17,9 +17,13 @@ i.bi {
 .about-us-item {
     background-color: var(--neutral-100);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) 3fr;
 }
 
 .about-us-item img {
     display: block;
     width: 20ch;
+    max-width: 100%;
 }
