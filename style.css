@@ -22,7 +22,7 @@ i.bi {
 }
 
 .big-icon.container i.bi {
-    color: var(--neutral-900);
+    color: var(--icon-color, --neutral-900);
 }
 
 .circle {
@@ -41,4 +41,17 @@ i.bi {
     display: block;
     width: 20ch;
     max-width: 100%;
+}
+
+.skew {
+    --skew: -35deg;
+    --scale: 1.1;
+    transform: skewX(var(--skew)) scale(var(--scale));
+
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.skew > * {
+    transform: skewX(calc(-1 * var(--skew))) scale(calc(1 / var(--scale)));
 }
