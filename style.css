@@ -1,8 +1,9 @@
 #tomtar-img {
-    /* TODO: Set to actual image instead of this fake stuff */
+    background-image: var(--bg-img);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
     min-height: 400px;
-    background-color: var(--accent);
-    color: var(--neutral-100);
 }
 
 i.bi {
@@ -20,10 +21,5 @@ i.bi {
 
 .about-us-item img {
     display: block;
-
-    /* TODO: remove -- this is only for debugging */
-    background-color: var(--bs-teal);
-    border: 1px solid transparent;
-    min-width: 11ch;
-    min-height: 11ch;
+    width: 20ch;
 }
