@@ -1,3 +1,14 @@
+#logo {
+    max-height: 4rem;
+    width: 0;
+    min-width: 100px;
+}
+
+#logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 #tomtar-img {
     background-image: var(--bg-img);
     background-size: cover;
@@ -10,12 +21,16 @@ i.bi {
     color: var(--bs-gray-600);
 }
 
+.big-icon.container i.bi {
+    color: var(--neutral-900);
+}
+
 .circle {
     border-radius: 50%;
 }
 
 .about-us-item {
-    background-color: var(--neutral-100);
+    background-color: var(--bs-gray-100);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
     display: grid;

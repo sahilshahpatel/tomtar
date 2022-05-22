@@ -1,10 +1,20 @@
 :root {
     /* Color palette */
     /* TODO: I'm thinking neutral could be a soft beige/sand color and accent could be a sof, light red like the hats */
-    --neutral-100: var(--bs-gray-100);
+    /* --neutral-100: var(--bs-gray-100);
     --neutral-500: var(--bs-gray-500);
     --neutral-900: var(--bs-gray-900);
-    --accent: var(--bs-indigo);
+    --accent: var(--bs-indigo); */
+
+    /* From https://color.adobe.com/create/color-wheel */
+    --neutral-100: #F5F0C6;
+    --neutral-300: #E8E4BD;
+    --neutral-500: #CFCBA7;
+    --neutral-700: #A8A588;
+    --neutral-800: #696755;
+    --neutral-900: #4F4E40;
+    --accent: #E8BAB0;
+    --accent2: #B4A5E8;
 }
 
 body {
@@ -21,7 +31,7 @@ header {
     position: sticky;
     top: 0;
 
-    background-color: var(--bs-gray-300);
+    background-color: var(--neutral-300);
 }
 
 .nav-link {
@@ -29,12 +39,12 @@ header {
     justify-content: center;
     align-items: center;
 
-    color: var(--bs-gray-800);
+    color: var(--neutral-900);
 }
 
 .nav-link:hover, .nav-link:focus {
     color: black;
-    background-color: var(--bs-gray-200);
+    background-color: var(--neutral-100);
 }
 
 /* .nav-link:active {
@@ -43,5 +53,5 @@ header {
 
 footer {
     color: var(--bs-gray-500);
-    background-color: var(--neutral-900);
+    background-color: var(--bs-gray-900);
 }

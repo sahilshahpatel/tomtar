@@ -16,9 +16,12 @@
     </head>
     <body>
         <header class="d-flex justify-content-between align-items-stretch">
-            <h1 class="m-0 ps-3 py-1 flex-grow-1 flex-shrink-1">
+            <!-- <h1 class="m-0 ps-3 py-1 flex-grow-1 flex-shrink-1">
                 <a class="text-reset text-decoration-none" href="#">Tomtar</a>
-            </h1>
+            </h1> -->
+            <div id="logo" class="m-0 ps-3 py-1 flex-grow-1 flex-shrink-1">
+                <img src="images/logo-short.png">
+            </div> 
             <nav class="nav nav-fill justify-content-end flex-grow-1">
                 <a class="nav-link" href="#demo-video">Demo Video</a>
                 <a class="nav-link" href="#about-us">About Us</a>
@@ -27,7 +30,7 @@
         </header>
 
         <main>
-            <div id="tomtar-img" class="container-fluid d-flex justify-content-center align-items-center" style="--bg-img: url(images/titlescreen.png); background-position: right top;">
+            <div id="tomtar-img" class="container-fluid d-flex justify-content-center align-items-center" style="--bg-img: url(images/titlescreen.png); background-position: center;">
                 <!-- <h2 class="text-center" style="max-width: 15ch">Welcome to the world of Tomtar</h2> -->
             </div>
 
@@ -39,7 +42,7 @@
                 and make it back home.  
             </div>
 
-            <div class="container mb-5 d-flex justify-content-evenly gap-5">
+            <div class="big-icon container mb-5 d-flex justify-content-evenly gap-5">
                 <div>
                     <i class="bi bi-people d-block text-center" style="font-size: 7rem;"></i>
                     <h4>Co-Op</h4>
@@ -62,14 +65,27 @@
             <div id="demo-video" class="container my-5">
                 <h2 class="text-center">Demo Video</h2>
                 <!-- TODO: Insert youtube demo video -->
-                <div style="min-height: 500px; background-color: var(--neutral-100);"></div>
+                <div style="min-height: 500px; background-color: var(--bs-gray-100);"></div>
             </div>
 
             <div id="about-us" class="container my-5">
                 <h2 class="text-center mb-4">Meet the Team</h2>
                 <div class="about-us-item mb-3 p-3">
                     <div class="text-center">
-                        <img class="circle mx-auto" src="images/christian.png" style="--bg-img: url(images/christian.png)">
+                        <img class="circle mx-auto" src="images/mo.png">
+                        <div class="fs-3">Mo Liang</div>
+                        <div>
+                            <a href="mailto:1090193661@qq.com"><i class="bi bi-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/%E6%9C%AB-%E6%A2%81-32355022b/"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="container m-3">
+                        Some description of activities here
+                    </div>
+                </div>
+                <div class="about-us-item mb-3 p-3">
+                    <div class="text-center">
+                        <img class="circle mx-auto" src="images/christian.png">
                         <div class="fs-3">Christian Lindberg</div>
                         <div>
                             <a href="mailto:christian@christianlindberg.me"><i class="bi bi-envelope"></i></a>
@@ -102,7 +118,7 @@
 
                 <p>Summary of the business plan for <i>Tomtar</i>.</p>
 
-                <div class="container mb-5 d-flex justify-content-evenly gap-5">
+                <div class="big-icon container mb-5 d-flex justify-content-evenly gap-5">
                     <div>
                         <i class="bi bi-graph-up-arrow d-block text-center" style="font-size: 7rem;"></i>
                         <h4>Thing 1</h4>
