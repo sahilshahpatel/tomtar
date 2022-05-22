@@ -10,6 +10,7 @@
 }
 
 #tomtar-img {
+    background-color: var(--neutral-300); /* Fallback */
     background-image: var(--bg-img);
     background-size: cover;
     background-repeat: no-repeat;
