@@ -22,6 +22,12 @@ i.bi {
     color: var(--bs-gray-600);
 }
 
+.big-icon.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
 .big-icon.container i.bi {
     color: var(--icon-color, --neutral-900);
 }
